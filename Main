@@ -1,0 +1,14 @@
+local gameidlist = { --game id list--
+    [1] = 18901165922,
+    [2] = 14881488814888148881488,
+}
+
+for _, gameId in ipairs(gameidlist) do
+    if gameId == game.PlaceId then
+        if gameId == 18901165922 then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/goofyahh-hub/LoaderV2/refs/heads/main/1"))()
+        elseif gameId == 14881488814888148881488 then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/goofyahh-hub/Build-A-Boat-With-Blocks-/refs/heads/main/Main"))()
+        end
+    end
+end
