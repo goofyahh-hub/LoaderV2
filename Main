@@ -1,6 +1,6 @@
 local gameidlist = { --game id list--
     [1] = 18901165922,
-    [2] = 14881488814888148881488,
+    [2] = 14881488814888148881488
 }
 
 for _, gameId in ipairs(gameidlist) do
